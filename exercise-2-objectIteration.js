@@ -50,3 +50,7 @@ console.table(namesAndHobbies);
  if("enia" in namesAndHobbies){
      console.log("Enia", namesAndHobbies.enia);
  }
+
+ /*A quick note on FOR...OF with objects
+ we can use the handy FOR...OF to iterate over arrays and strings easily. While FOR...OF is a great way to loop over strings and arrays it does not work on objects (you will get an error).
+  If you need to iterate over an object, always use FOR...IN. */
